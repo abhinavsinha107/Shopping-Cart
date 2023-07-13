@@ -1,0 +1,49 @@
+.nav {
+    padding: 0 4rem;
+    background-color: rgb(38, 106, 174);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+}
+
+.nav h1 {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.cart {
+    cursor: pointer;
+}
+
+.cart span:nth-child(1){
+    font-size: 2rem;
+    color: white;
+}
+
+.cart span:nth-child(2){
+    padding: 0 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+}
+
+.warning{
+    height: 40px;
+    width: 250px;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    background-color: rgb(210, 91, 91);
+    font-size: 1.1rem;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    border-radius: 5px;
+}

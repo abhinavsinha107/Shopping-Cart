@@ -1,0 +1,115 @@
+article {
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.cart_box {
+    margin-bottom: 1rem;
+    display: flex;
+    text-align: center;
+}
+
+.cart_desc {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.cart_desc div {
+    width: 70%;
+}
+
+.cart_desc img {
+    width: 4rem;
+}
+
+.btn {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.btn div {
+    width: 2rem;
+    height: 2rem;
+    font-weight: bold;
+    background-color: rgb(132, 103, 103);
+    color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    width: 2rem;
+    height: 2rem;
+    font-weight: bold;
+    background-color: rgb(132, 103, 103);
+    color: white;
+    border-radius: 0.4rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.price {
+    width: 20%;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.price div {
+    text-align: center;
+    font-weight: 700;
+}
+
+.price button {
+    background-color: rgb(5, 202, 202);
+    border: 1px solid rgb(11, 75, 75);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+hr {
+    margin-bottom: 0.5rem;
+}
+
+.total {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    gap: 3rem;
+}
+
+.priceTag {
+    color: rgb(91, 28, 128);
+    font-weight: bold;
+}
+
+.subTotal {
+    background-color: rgb(91, 28, 128);
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.5rem;
+    font-weight: bolder;
+    position: relative;
+    right: 2rem;
+}
+
+.empty {
+    height: 90vh;
+    text-align: center;
+    margin-top: 4rem;
+}
+

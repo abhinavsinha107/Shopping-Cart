@@ -1,0 +1,44 @@
+.cards {
+    width: 250px;
+    padding: 20px;
+    background-color: ghostwhite;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.cards:hover {
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.4);
+    /* cursor: pointer; */
+}
+
+.image__box img {
+    width: 150px;
+    height: 200px;
+}
+
+.details p:nth-child(1) {
+    font-weight: bold;
+}
+
+.details p:nth-child(2) {
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.details p:nth-child(3) {
+    color: grey;
+    font-weight: bold;
+}
+
+.details button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: skyblue;
+    outline: none;
+    border-radius: 2px;
+}
+
+.details button:hover {
+    cursor: pointer;
+}
